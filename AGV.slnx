@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AGV/AGV.vcxproj" Id="3c15b146-6d5e-4b5d-9c7b-5133fa921109" />
+</Solution>
