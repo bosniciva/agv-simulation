@@ -10,7 +10,7 @@ This project evolves traditional Automated Guided Vehicles (AGVs) that halt at s
 
 The framework runs across three decoupled, cross-language processing nodes communicating asynchronously via a central **MQTT broker** loop:
 
-![System of communication](\pics\agv.jpg)
+![System of communication](pics/agv.jpg)
 
 *   **Vehicle Core Subsystem (C++17):** High-performance independent runtime processes providing localized memory control, path finding, obstacle detection algorithms, and state machines.
 *   **Operator Control Panel Dashboard (Java):** Desktop telemetry visualizer built using the standard `Swing` graphic engine framework to monitor positions, deploy obstacles, and dispatch routing overrides.
