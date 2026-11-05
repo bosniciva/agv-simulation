@@ -6,7 +6,7 @@ This project evolves traditional Automated Guided Vehicles (AGVs) that halt at s
 
 ---
 
-## 🏗️ System Architecture & Technology Stack
+## System Architecture & Technology Stack
 
 The framework runs across three decoupled, cross-language processing nodes communicating asynchronously via a central **MQTT broker** loop:
 
@@ -19,7 +19,7 @@ The framework runs across three decoupled, cross-language processing nodes commu
 
 ---
 
-## 🚀 Key Algorithmic Implementations
+## Key Algorithmic Implementations
 
 ### 1. Multi-Tier Path Planning & Trajectory Smoothing
 When localized safety zones register a route blockage, vehicles evaluate a hierarchical bypass maneuver:
@@ -34,7 +34,7 @@ Avoids single points of failure by managing traffic collisions locally on the ve
 
 ---
 
-## 📊 Quantitative Benchmarks & Testing Performance
+## Quantitative Benchmarks & Testing Performance
 
 The operational algorithm was validated through intensive monte-carlo batch scenarios executing **1,000 independent randomized tracking loops** to profile real-world efficacy:
 
